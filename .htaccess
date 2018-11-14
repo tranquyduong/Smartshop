@@ -1,4 +1,4 @@
-RewriteEngine off
+RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
 #To avoid nasty people accessing your files
